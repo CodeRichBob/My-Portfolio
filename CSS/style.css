@@ -2,7 +2,7 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  /* background-color: black; */
+  font-family: sans-serif;
 }
 nav {
   background-color: black;
@@ -129,4 +129,26 @@ span {
   display: flex;
   flex-direction: row;
   color: white;
+}
+.get-in-touch {
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  padding-top: 200px;
+  background-color: black;
+  height: 80vh;
+}
+.get-in-touch h1,
+p {
+  color: white;
+}
+.contact-mail {
+  color: white;
+  text-decoration: none;
+}
+.contact-mail:hover {
+  color: #48bf91;
+  text-decoration: underline;
+  transition: 1s;
+  cursor: pointer;
 }
