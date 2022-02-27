@@ -3,6 +3,7 @@
   padding: 0;
   box-sizing: border-box;
   font-family: sans-serif;
+  scroll-behavior: smooth;
 }
 nav {
   background-color: black;
@@ -19,6 +20,11 @@ nav {
 .items {
   display: inline-block;
 }
+.items a :hover {
+  color: #48bf91;
+  transition: 0.5s;
+  text-decoration: underline;
+}
 .icons {
   text-decoration: none;
   color: white;
@@ -27,6 +33,10 @@ nav {
 }
 .icons a {
   color: white;
+}
+.icons a :hover {
+  color: #48bf91;
+  transition: 0.5s;
 }
 .items ul li {
   display: inline-block;
@@ -64,6 +74,9 @@ h1 {
 }
 span {
   color: #48bf91;
+}
+.logo a {
+  text-decoration: none;
 }
 .seg2 {
   display: flex;
