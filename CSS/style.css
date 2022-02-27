@@ -11,10 +11,22 @@ nav {
 .nav-bar {
   display: flex;
   flex-direction: row;
-  justify-content: space-around;
+  justify-content: space-evenly;
   align-items: center;
   height: 8vh;
   background: #202020;
+}
+.items {
+  display: inline-block;
+}
+.icons {
+  text-decoration: none;
+  color: white;
+  font-size: 20px;
+  letter-spacing: 20px;
+}
+.icons a {
+  color: white;
 }
 .items ul li {
   display: inline-block;
@@ -151,4 +163,28 @@ p {
   text-decoration: underline;
   transition: 1s;
   cursor: pointer;
+}
+.end {
+  color: white;
+  background-color: #262425;
+  height: 20vh;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+.designer {
+  padding-top: 50px;
+}
+.socials {
+  padding-top: 50px;
+  color: white;
+  font-size: 20px;
+  letter-spacing: 20px;
+}
+.socials a {
+  text-decoration: none;
+  color: white;
+}
+.socials a:hover {
+  color: #48bf91;
 }
