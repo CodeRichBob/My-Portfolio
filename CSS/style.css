@@ -76,7 +76,7 @@ span {
   height: 100vh;
   background-color: black;
 }
-.seg3 #myskills {
+.greenbluetext {
   color: #48bf91;
   font-size: 1.5em;
 }
@@ -97,6 +97,36 @@ span {
   font-size: 30px;
 }
 .seg4 {
-  height: 80vh;
   background-color: black;
+}
+.work h1 {
+  color: white;
+  margin-top: 40px;
+}
+.work {
+  margin-left: 10%;
+}
+.projects {
+  margin-left: 10%;
+  margin-top: 80px;
+  display: flex;
+  flex-direction: row;
+  color: white;
+}
+.project-narration {
+  align-items: center;
+  justify-content: center;
+  text-align: left;
+  margin-left: 10%;
+  margin-right: 10%;
+}
+.projectpic :hover {
+  filter: brightness(95%);
+}
+.projects2 {
+  margin-right: 10%;
+  margin-top: 80px;
+  display: flex;
+  flex-direction: row;
+  color: white;
 }
